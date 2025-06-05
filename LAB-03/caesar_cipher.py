@@ -46,7 +46,7 @@ class MyApp(QMainWindow):
                 
                 msg = QMessageBox()
                 msg.setIcon(QMessageBox.Information)
-                msg.setText("Encrypted Successfully")
+                msg.setText("Decrypted Successfully")
                 msg.exec_()
             else:
                 print ("Error while calling API")
